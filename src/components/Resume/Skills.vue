@@ -9,7 +9,7 @@
 				<span style="font-weight: bold;">HTML5</span>
 				<span>: </span>
 				<span style="text-align: justify">语义化标签、选择器、盒子模型、flexbox、响应式布局(@media)</span>
-			</div> 
+			</div>
 		</div>
 	</div>
 </template>
@@ -17,17 +17,20 @@
 <script>
 
 export default {
- name: 'Skills',
- components: {
+	name: 'Skills',
+	components: {
 
- }
+	}
 }
 </script>
 
 <style scoped>
-li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+.skills {
+	padding: 20px 0;
+}
+
+.item {
+
+	padding-top: 10px;
 }
 </style>

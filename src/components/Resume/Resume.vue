@@ -1,8 +1,9 @@
 <template>
-	<div class="resume">
+	<div class="resume-preview">
 		<Person></Person>
 		<Education></Education>
 		<Skills></Skills>
+		<Project></Project>
 	</div>
 </template>
 
@@ -10,18 +11,20 @@
 import Person from './Person.vue'
 import Education from './Education.vue'
 import Skills from './Skills.vue'
+import Project from './Project.vue'
 export default {
-  name: 'Resume',
-  components: {
-    Person,
-    Education,
-    Skills
-}
+	name: 'Resume',
+	components: {
+		Person,
+		Education,
+		Skills,
+		Project
+	}
 }
 </script>
 
 <style scoped>
-.resume{
+.resume-preview {
 	width: 210mm;
 	height: 297mm;
 	background: #fff;
